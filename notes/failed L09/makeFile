@@ -1,0 +1,4 @@
+# can change these if files are located elsewhere
+SOURCEDIR = ./.
+INCLUDEDIR = ./.
+OBJDIR &&=

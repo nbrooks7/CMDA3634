@@ -88,7 +88,7 @@ int main(int argc, char** argv) {
         MPI_Wait(reqs+1, status+1);
 
         for(int n=0;n<N;n++){
-            printf("Rank %d received a messafe from rank %d: value = %d\n", rank, sourceRank, N);
+            printf("Rank %d received a messafe from rank %d: data[%d]\n", rank, sourceRank, N);
 
         free(recvData);
 
